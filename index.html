@@ -44,7 +44,16 @@
     <!--Герой-->
     <section class="hiro-s">
     <h1 class="hiro-title-s">Эффективные решения <br> для вашего бизнеса </h1>
-    <button class="hiro-button-s" type="button"> Заказать услугу </button>
+    <button data-modal-open type="button" class="hiro-button-s"> Заказать услугу </button>
+      <div class="backdrop" data-modal> 
+        <div class="modal">
+          <button class="close-modal" data-modal-close>
+            <svg width="11px" height="11px" class="icon-modal">
+              <use href=".//images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </section>
     <!--Наши преимущества  -->
     <section class="advantages">
@@ -362,5 +371,6 @@
       </div>
     </div>
   </footer>
+  <script src="./js/modal.js"></script>
 </body>
 </html>
