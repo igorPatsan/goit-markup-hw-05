@@ -30,7 +30,7 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 .header-conteiner {
   display: flex;
@@ -119,11 +119,15 @@ a {
   color: var(--first-title-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
   color: var(--link-color);
+  border-radius: 2px;
+  border-bottom: 4px solid var(--link-color);
 }
+
 .header-link-contacts {
   font-weight: 500;
   font-size: 14px;
@@ -132,6 +136,7 @@ a {
   color: var(--title-color-text);
   padding-top: 32px;
   padding-bottom: 32px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-letter {
@@ -207,12 +212,12 @@ a {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden {
-  /* opacity: 0; */
+  opacity: 0;
   pointer-events: none;
 }
 
 .modal {
-  /* z-index: 2; */
+  z-index: 2;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -288,6 +293,15 @@ a {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.do-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
 .do-list {
   display: flex;
   justify-content: center;
@@ -299,16 +313,26 @@ a {
 }
 .do-item:nth-child(3n) {
 }
-
-.do-title {
+.do-text {
+  display: flex;
+  justify-content: center;
+  padding-top: 27px;
+  min-width: 370px;
+  min-height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+}
+.do-text-deco {
+  /* font-family: Roboto;
+  font-style: normal; */
   font-weight: bold;
-  font-size: 36px;
-  line-height: calc(42 / 36);
+  font-size: 14px;
+  line-height: 16px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
 }
+
 /*--------  SDUDIO-----TEAM-----*/
 .team {
   padding-top: 94px;
@@ -389,6 +413,7 @@ a {
   cursor: pointer;
   fill: #afb1b8;
   /* transition: background-color var(--link-color); */
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links-icon {
   width: 20px;
@@ -442,6 +467,7 @@ a {
   border-radius: 4px;
   cursor: pointer;
   fill: #afb1b8;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logotip-icon {
@@ -490,6 +516,7 @@ a {
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hiro-p-button:hover,
 .hiro-p-button:focus {
@@ -511,6 +538,7 @@ a {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-items:nth-child(3n) {
 }
@@ -594,6 +622,8 @@ a {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  /* transition: color 350ms linear; */
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link-contact:hover,
 .footer-link-contact:focus {
@@ -636,7 +666,9 @@ a {
   cursor: pointer;
   fill: var(--main-white-color);
   background-color: rgba(255, 255, 255, 0.1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footerlinks:focus,
 .footerlinks:hover {
   background-color: var(--link-color);
