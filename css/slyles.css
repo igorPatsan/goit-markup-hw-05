@@ -119,7 +119,7 @@ a {
   color: var(--first-title-color);
   padding-top: 32px;
   padding-bottom: 32px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-link:hover,
 .header-link:focus {
@@ -150,7 +150,7 @@ a {
   color: var(--title-color-text);
   padding-top: 32px;
   padding-bottom: 32px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 550ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-letter {
@@ -450,7 +450,7 @@ a {
   cursor: pointer;
   fill: #afb1b8;
   /* transition: background-color var(--link-color); */
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links-icon {
   width: 20px;
@@ -504,7 +504,7 @@ a {
   border-radius: 4px;
   cursor: pointer;
   fill: #afb1b8;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logotip-icon {
@@ -553,7 +553,7 @@ a {
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hiro-p-button:hover,
 .hiro-p-button:focus {
@@ -575,7 +575,7 @@ a {
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
 }
 .project-items:hover .project-top-text {
@@ -598,7 +598,7 @@ a {
   height: 100%;
   padding: 63px 24px;
   transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 750ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-items:nth-child(3n) {
 }
@@ -683,7 +683,7 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   /* transition: color 350ms linear; */
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link-contact:hover,
 .footer-link-contact:focus {
@@ -726,7 +726,7 @@ a {
   cursor: pointer;
   fill: var(--main-white-color);
   background-color: rgba(255, 255, 255, 0.1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footerlinks:focus,
